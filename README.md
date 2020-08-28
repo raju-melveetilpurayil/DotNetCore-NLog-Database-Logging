@@ -1,2 +1,2 @@
-# DotNetCore-NLog-Database-Logging
+# DotNetCore logging with NLog log in to database 
 Sample code for NLog database logging step by step
