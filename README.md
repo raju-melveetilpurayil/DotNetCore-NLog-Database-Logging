@@ -40,7 +40,7 @@ Now we are ready to start. we need to set the configuration now
 </nlog>
 ```
 
-If the is any internal errors you can see in ```xml internalLogLevel="Info" internalLogFile="c:\temp\nlog-internal.log">```
+If the is any internal errors you can see in ``` internalLogLevel="Info" internalLogFile="c:\temp\nlog-internal.log">```
 
 From .NLog Git you can see how we can setup NLog for .Net core
 https://github.com/NLog/NLog/wiki/Getting-started-with-ASP.NET-Core-3
@@ -69,5 +69,14 @@ CREATE TABLE [dbo].[DummyLogs](
 GO
 ```
 
+RESULT
+```
 
+Id	Message	Level	Exception	Trace	Logger	DateCreated
+1	Application Starting up	Debug			DotNetCoreAndNLogSample.Program	2020-08-28 20:31:57.437
+2	Application started. Press Ctrl+C to shut down.	Info			Microsoft.Hosting.Lifetime	2020-08-28 20:31:58.543
+3	Hosting environment: Development	Info			Microsoft.Hosting.Lifetime	2020-08-28 20:31:58.557
+4	Content root path: D:\Projects\VS2019\DotNetCoreAndNLogSample\DotNetCoreAndNLogSample	Info			Microsoft.Hosting.Lifetime	2020-08-28 20:31:58.560
+5	Page Load	Info			DotNetCoreAndNLogSample.Pages.IndexModel	2020-08-28 20:31:58.827
+```
 
